@@ -1,0 +1,9 @@
+---
+- hosts: webservers
+  become: true
+  tasks:
+     - name: copy war file to tomcat server
+       copy:
+         src: /opt/playbooks/webapp.war
+         dest: /opt/tomcat-9/webapps/
+         #remote_src: yes
