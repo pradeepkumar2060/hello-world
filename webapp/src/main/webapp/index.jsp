@@ -14,6 +14,9 @@ p {
 <body bgcolor="#123abcdf">
 <br/>
 <h1>Hello, Welcome To Simple CI/CD DevOps Project......</h1>
+<h1> Devops Working Flow </h1>
+
+<img src="devops_flow.jpg" alt="DevOps Flow" width="500" height="600">
 <h2>Using Tools Like Below: </h2>
 <ul>
   <li>Jenkins</li>
